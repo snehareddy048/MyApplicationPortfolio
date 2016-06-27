@@ -1,7 +1,7 @@
 # MyApplicationPortfolio
 This repo showcases the app I have written or updated.
 
-Download the following from git repos for the various apps and install in the phone where the MyApplciationPortfolio is installed:
+Download the following from git repos for the various apps and install in the phone where the MyApplciationPortfolio is installed:<br />
 [Movies App](https://github.com/snehareddy048/MoviesApp.git)<br />
 [Alexandria](https://github.com/snehareddy048/SuperDuo1.git)<br />
 [Football Scores](https://github.com/snehareddy048/SuperDuo2.git)<br />
