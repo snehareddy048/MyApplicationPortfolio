@@ -1,3 +1,10 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,8 +24,8 @@
     <Button
         android:id="@+id/spotify_streamer"
         style="@style/BarStyle.Orange"
-        android:onClick="spoifyStreamer"
-        android:text="@string/spotify_streamer" />
+        android:onClick="moviesApp"
+        android:text="@string/movies_app" />
 
     <Button
         android:id="@+id/scores_app"
@@ -38,11 +45,18 @@
         android:onClick="buildItBigger"
         android:text="@string/build_it_bigger" />
 
+
     <Button
-        android:id="@+id/xyz_reader"
+        android:id="@+id/make_material"
         style="@style/BarStyle.Orange"
-        android:onClick="xyzReader"
-        android:text="@string/xyz_reader" />
+        android:onClick="materialApp"
+        android:text="@string/material_app" />
+
+    <Button
+        android:id="@+id/go_ubiquitous"
+        style="@style/BarStyle.Orange"
+        android:onClick="goUbiquitous"
+        android:text="@string/go_ubiquitous" />
 
     <Button
         android:id="@+id/capstone_my_own_app"
@@ -51,3 +65,4 @@
         android:text="@string/capstone_my_own_app" />
 
 </LinearLayout>
+</ScrollView>
