@@ -44,7 +44,11 @@ public class MainActivity extends ActionBarActivity {
             }
 
     public void buildItBigger(View v) {
-        Toast.makeText(getApplicationContext(), displayMessage + "build it bigger app!", Toast.LENGTH_SHORT).show();
+        String pkg = "com.udacity.gradle.builditbigger";
+        componentName = new ComponentName(pkg ,
+                pkg + ".MainActivity");
+        intent.setComponent(componentName);
+        startActivity(intent);
     }
 
     public void materialApp(View v) {
@@ -53,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
                 pkg + ".ui.ArticleListActivity");
         intent.setComponent(componentName);
         startActivity(intent);
-            }
+    }
 
     public void goUbiquitous(View v) {
         String pkg = "com.example.snehaanandyeluguri.ubiquitouswatchface";
@@ -61,7 +65,7 @@ public class MainActivity extends ActionBarActivity {
                 pkg + ".MainActivity");
         intent.setComponent(componentName);
         startActivity(intent);
-            }
+    }
 
 
     public void capstoneMyOwnApp(View v) {
